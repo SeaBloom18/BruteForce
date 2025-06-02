@@ -1,6 +1,11 @@
 package org.ops;
 
 public class Credential {
-    public String user;
-    public String password;
+    String user;
+    String password;
+
+    public Credential(String user, String password) {
+        this.user = user;
+        this.password = password;
+    }
 }
